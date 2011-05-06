@@ -24,21 +24,27 @@ Methods
 -------
 
 *   `KeyWasPressed(Keys) : bool`
-    Returns whether the specified key was pressed and released (not held) since the last `Update()` call; `false` otherwise.
+
+    Returns whether the specified key was pressed and released (not held) since the last `Update()` call.
 
 *   `KeyWasPressedFor(Keys, TimeSpan) : bool`
+
     Returns whether the specified key has been held for the specified duration.
 
 *   `KeyWasPressedWithModifiers(Keys, Keys[]) : bool`
+
     Returns whether the specified key was pressed and released (not held) while the specified modifiers were held.
 
 *   `KeyWasReleased(Keys) : bool`
+
     Returns `true` if the specified key was recently released (during the last `Update()` call); `false` otherwise.
 
 *   `GetElapsedHeldTime(Keys) : TimeSpan`
+
     Returns the duration for which the specified key has been held.
 
 *   `GetElapsedHeldTime(MouseButtons) : TimeSpan`
+
     Returns the duration for which the specified mouse button has been held.
 
 *   `MouseButtonIsDown(MouseButtons) : bool`
