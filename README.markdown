@@ -19,3 +19,12 @@ Usage
 			// TODO: Use your newfound input awesomeness!
 		}
 	}
+
+Some Common Methods
+-------------------
+
+*   `KeyWasReleased(Keys) : bool`
+    Returns `true` if the specified key was recently (during the last `Update()`) released.
+
+*   `GetElapsedHeldTime(MouseButtons) : TimeSpan`
+    Returns a `TimeSpan` containing the time the specified mouse button has been held for.
